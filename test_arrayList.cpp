@@ -1,8 +1,11 @@
 #define CATCH_CONFIG_MAIN
 #define CATCH_TESTING
 #include "catch_amalgamated.hpp"
-#include "MainProgram.cpp"
+#include <iostream>
+using namespace std;
 
+extern int student_main();
+#include "MainProgram.cpp"
 
 /************************************************************
  CMP2003 – Data Structures Lab
