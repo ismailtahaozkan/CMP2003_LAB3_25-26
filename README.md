@@ -12,6 +12,53 @@ You will learn to:
 ---
 
 ## 🧩 **Tasks Overview**
+---
+
+## 🧩 **Task 1 – Define `arrayListType` from UML**
+
+Using the UML diagram below, define the full class **`arrayListType`** that stores a generic array and supports list operations.
+
+```
+arrayListType
+-------------------------------------------------------
+# list : elemType*
+# length : int
+# maxSize : int
+-------------------------------------------------------
++ isEmpty() const : bool
++ isFull() const : bool
++ listSize() const : int
++ maxListSize() const : int
++ print() const : void
++ isItemAtEqual(int, const elemType&) const : bool
++ insertAt(int, const elemType&) : void
++ insertEnd(const elemType&) : void
++ removeAt(int) : void
++ removeAll(const elemType&) : void
++ retrieveAt(int, elemType&) const : void
++ replaceAt(int, const elemType&) : void
++ clearList() : void
++ seqSearch(const elemType&) const : int
++ insert(const elemType&) : void
++ remove(const elemType&) : void
++ min() const : elemType
++ max() const : elemType
++ arrayListType(int = 100)
++ arrayListType(const arrayListType<elemType>&)
++ ~arrayListType()
++ operator=(const arrayListType<elemType>&) : const arrayListType<elemType>&
+-------------------------------------------------------
+```
+
+This task provides the **base implementation** of your array list.  
+You must ensure:
+- Proper **encapsulation** (protected data members)  
+- Correct **constructor, destructor, and copy semantics**  
+- Use of **assertions** for memory allocation  
+
+Once this structure works, continue with Tasks 2–5 to enhance it.
+
+---
 
 ### 🧠 Task 2 – `removeAt(int location)`
 Rewrite the existing `removeAt` function to **improve efficiency**.  
