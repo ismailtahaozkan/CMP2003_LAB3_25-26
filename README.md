@@ -1,5 +1,5 @@
 # 📘 CMP2003 – Data Structures  
-## **Lab 02 – Array List**
+## **Lab 03 – Array List**
 
 ## 🎯 **Objective**
 
